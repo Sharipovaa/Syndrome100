@@ -16,4 +16,18 @@ public class Syndrome100Test {
 
         assertEquals(expected, actual);
     }
+
+
+    @Test
+    void findMin() {
+        Syndrome100 service = new Syndrome100();
+
+        long[] incomesInBillions = {12, 5, 8, 4, 5, 3, 8, 6, 11, 11, 12};
+        long expected = 3;
+
+        long actual = service.findMin(incomesInBillions);
+
+        assertEquals(expected, actual);
+    }
+
 }
