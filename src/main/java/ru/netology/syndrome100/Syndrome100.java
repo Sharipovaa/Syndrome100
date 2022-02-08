@@ -1,7 +1,6 @@
 package ru.netology.syndrome100;
 
 public class Syndrome100 {
-    public class StatisticsService {
         /**
          * Calculate index of max income
          *
@@ -17,4 +16,3 @@ public class Syndrome100 {
             return current_max;
         }
     }
-}
