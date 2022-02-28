@@ -28,5 +28,4 @@ public class Syndrome100Test {
         assertEquals(expected, actual);
     }
 
-
 }
